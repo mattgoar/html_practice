@@ -18,3 +18,31 @@ Note that I've included the background image for the page in this folder, "grey.
 Write your CSS rules below.
 
 */
+
+body {
+  background-image: url("grey.png");
+  }
+
+.board {
+  border-style: solid;
+  border-color: #1D7373;
+  border-width: 5px;
+  padding: 1px;
+  margin: 36px auto;
+  }
+
+td {
+  width: 73px;
+  height: 70px;
+  color: #FF9640;
+  font-size: 300%;
+  text-shadow: 1px 1px 3px #2b2b2b;
+  text-align: center;
+  }
+
+td.dark_square {
+  background: -webkit-linear-gradient(left top, #019696, #1A7878); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #019696, #1A7878); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #019696, #1A7878); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #019696, #1A7878); /* Standard syntax */
+  }
